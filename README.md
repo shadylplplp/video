@@ -7,7 +7,7 @@
 <p>使用方式</p>
 <p>1.git clone https://github.com/shadylplplp/video.git</p>
 <p>2.执行composer install</p>
-<p>3.把.env.example修改成.env 里设置数据库 SMTP服务器等配置</p>
+<p>3.把.env.example修改成.env 里设置数据库 SMTP服务器等配置，修改QUEUE_CONNECTION=redis并且加REDIS_CLIENT=predis</p>
 <p>4.执行php artisan key:generate生成key</p>
 <p>5.执行php artisan migrate:refresh --seed 填充数据库 就可以看到demo了</p>
 <p>6.如果没有安装过ffmpeg 安装ffmpeg用来视频转码</p>
