@@ -14,4 +14,3 @@
 <p>7.执行php artisan queue:listen --timeout=3600 启用列队监听</p>
 
 <p>默认用户id1为管理员 管理后台为/admin</p>
-<p>默认邮箱输出在laravel的log文件中</p>
