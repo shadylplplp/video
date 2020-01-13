@@ -19,7 +19,5 @@ class UsersTableSeeder extends Seeder
             $user=User::find(1);
             $user->assignRole('Founder');
 
-            $user = User::find(2);
-            $user->assignRole('Maintainer');
     }
 }
