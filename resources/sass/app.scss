@@ -1,0 +1,74 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+// Bootstrap
+.videolist{
+  border:1px solid darkslategray;
+  border-radius:5px;
+  margin-left:10px;
+  margin-top: 10px;
+  height: 100px;
+  width: 320px;
+}
+
+.videotitle{
+  word-wrap:break-word;
+  float:left;
+  position:absolute;
+  margin-top: -5px;
+  margin-left: 12px;
+  width: 165px;
+  height: 40px;
+  overflow:hidden;
+}
+
+.videoplaycount{
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+
+.videocommentcount{
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 100px;
+}
+
+@import "topic_body";
+
+.topics-show-page {
+
+  .card {
+    padding: 15px;
+
+    h1 {
+      margin: 0.4em auto 0.6em;
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+}
+
+
+.topic-reply {
+  a {
+    color: inherit;
+  }
+
+  .meta {
+    font-size: .9em;
+    color: #b3b3b3;
+  }
+}
+
+.videodiv{
+  width: 192px;
+  height: 150px;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
