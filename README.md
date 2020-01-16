@@ -1,4 +1,5 @@
 <p>基于Laravel框架</p>
+<p>使用ffmpeg进行队列转码</p>
 <p>前端使用Bootstrap Jquery</p>
 <p>弹幕播放器使用DanmuPlayer</p>
 <p>管理后台基于summerblue/administrator</p>
